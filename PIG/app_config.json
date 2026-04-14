@@ -1,0 +1,38 @@
+{
+    "root_folder": "D:\\PythonProjects\\GoSoftwareStack\\PIG",
+    "extensions": ".py, .yml, .txt, .example",
+    "ignore_list": "PIG_T3, .git, .vs, .idea, __pycache__, venv, node_modules, .lock, obj, bin, build, dist, .vscode, log.txt, auto_migration_at_startup.py, project_context.txt, database, WORK_TIME, debug",
+    "output_name": "project_context",
+    "include_empty_folders": true,
+    "strict_mode": false,
+    "ignore_self": false,
+    "add_edit_prompt": true,
+    "auto_copy_file": true,
+    "line_numbers": true,
+    "use_sharp_indent": false,
+    "ollama_model": "None",
+    "ollama_options": {
+        "num_ctx": 24000,
+        "num_predict": 12000,
+        "temperature": 0.5,
+        "top_p": 0.95,
+        "top_k": 100
+    },
+    "opt_chunk_size": 7000,
+    "opt_chunk_unit": "tokens",
+    "opt_default_model": "None",
+    "ui_tree_expanded": [
+        "."
+    ],
+    "ui_tree_unchecked": [],
+    "theme": "dark",
+    "font_size": 10,
+    "tree_row_height": 28,
+    "checkbox_size": 14,
+    "tabs_visibility": {
+        "generator": true,
+        "info": true,
+        "editor": true,
+        "quality": true
+    }
+}
